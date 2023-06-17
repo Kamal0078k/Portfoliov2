@@ -32,7 +32,7 @@ const Hero = () => {
       </div>
       <div className="info">
         <div className="info2">
-          <div>They Call ME</div>
+          <div>THEY CALL ME</div>
           <div className="name">
             <div>K</div>
             <div>A</div>

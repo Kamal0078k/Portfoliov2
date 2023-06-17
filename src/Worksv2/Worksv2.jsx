@@ -150,7 +150,7 @@ const Worksv2 = () => {
     <div className="thirdv2">
       <div className="blackv2">
         <div className="flexwrk">
-          <div className="titwork">Works</div>
+          <div className="titwork">PROJECTS</div>
         </div>
       </div>
       <div className="Gallv2">
