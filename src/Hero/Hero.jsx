@@ -12,11 +12,11 @@ const Hero = () => {
 
       <div className="decor">
         <div className="move">
-          <div className="decor1">FULLSTACKDEVELOPER</div>
+          <div className="decor1">FULLSTACK DEVELOPER</div>
         </div>
         <div className="move">
           <div className="black">
-            <div className="decor2">GRAPHICDESIGNER</div>
+            <div className="decor2">GRAPHIC DESIGNER</div>
           </div>
         </div>
         <div className="move">
