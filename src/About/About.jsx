@@ -103,9 +103,9 @@ const About = () => {
       <div className="two">
         <div className="info3">
           My name is Kamal. I'm a full stack developer, UI/UX designer, graphic
-          designer, and former civil engineer by trade. I design and develop
-          strong, user-friendly, and aesthetically pleasing websites and
-          applications because I have a passion for both technology and design.
+          designer, and former civil engineer. I design and develop strong,
+          user-friendly, and aesthetically pleasing websites and applications
+          because I have a passion for both technology and design.
         </div>
         <div className="profile">
           <img src={kamal} className="profileimg" />
