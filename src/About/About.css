@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+.second {
+  height: 90vh;
+}
+
+.title {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  color: #dec9c9;
+  margin-left: 10vh;
+}
+
+.clip {
+  background-color: black;
+  height: 100px;
+  width: 100vw;
+}
+
+.two {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-top: 15vh;
+}
+
+.info3 {
+  width: 40vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+.profileimg {
+  width: 40vh;
+  position: absolute;
+  left: 30vh;
+  top: -5vh;
+  z-index: 2;
+}
+
+.profile {
+  position: relative;
+}
+
+.box {
+  width: 40vh;
+  position: absolute;
+  left: 45vh;
+
+  height: 45vh;
+  background-color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .info3 {
+    font-size: 20px;
+    width: 30vw;
+  }
+  .two {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .profileimg {
+    left: 10vh;
+  }
+
+  .box {
+    left: 15vh;
+  }
+}

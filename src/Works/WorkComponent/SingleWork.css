@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+.SW {
+  position: absolute;
+}
+
+.gallimages {
+  position: relative;
+  display: flex;
+  margin-top: 200px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.invoiceimages {
+  position: relative;
+  display: flex;
+  top: 60vh;
+  margin-top: 200px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gall1 {
+  position: absolute;
+  height: 35vh;
+  right: 10vh;
+  top: -100px;
+}
+
+.unp1 {
+  position: absolute;
+  height: 35vh;
+  right: 10vh;
+  top: -100px;
+}
+.gall2 {
+  position: absolute;
+  height: 35vh;
+  left: 10vh;
+  top: -100px;
+}
+
+.unp2 {
+  position: absolute;
+  height: 35vh;
+  left: 10vh;
+  top: -100px;
+}
+
+.galltit {
+  font-weight: 600;
+  margin-bottom: -3vh;
+  font-size: 40px;
+}
+
+.unptit {
+  font-weight: 600;
+  margin-bottom: -3vh;
+  font-size: 40px;
+}
+
+.gall3 {
+  position: absolute;
+  height: 35vh;
+}
+
+.unp3 {
+  position: absolute;
+  height: 35vh;
+}
+
+.desc1 {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  top: 70vh;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.desc2 {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  top: 155vh;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}

@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;600&display=swap");
+
+.first {
+  height: 100vh;
+}
+
+.hheader {
+  position: absolute;
+  top: 0;
+}
+
+.decor {
+  width: 100vw;
+  font-weight: 600;
+  display: flex;
+  font-size: 130px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  top: 10vh;
+}
+.move {
+  clip-path: polygon(0 -100%, 100% -100%, 100% 100%, 0% 100%);
+  margin-top: -50px;
+}
+
+/* .move1,
+.move2,
+.move3 {
+  margin-top: -50px;
+} */
+
+.decor1 {
+  /* margin-bottom: -100px; */
+  animation: titleup 1s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+}
+
+.black {
+  width: 100vw;
+  background-color: black;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: side 1s cubic-bezier(0.67, 0.09, 0, 0.88);
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+}
+
+.black1 {
+  width: 100vw;
+  background-color: black;
+
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: side1 1s cubic-bezier(0.67, 0.09, 0, 0.88);
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes side {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes side1 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.decor2 {
+  animation: titleup 1s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 3.55s;
+  animation-fill-mode: both;
+  color: #dec9c9;
+
+  width: 100%;
+}
+.decor3 {
+  animation: titleup 1s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 3.65s;
+  animation-fill-mode: both;
+}
+
+.decor4 {
+  color: transparent;
+
+  animation: titleup 1s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 3.7s;
+  animation-fill-mode: both;
+
+  color: #dec9c9;
+
+  width: 100%;
+}
+
+@keyframes titleup {
+  from {
+    transform: translateY(300px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 80vh;
+  width: 100vw;
+}
+
+.info2 {
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.name :nth-child(1) {
+  animation: upmove 1.5s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 3.3s;
+  animation-fill-mode: both;
+}
+
+.name :nth-child(2) {
+  animation: upmove 1.5s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 3.3s;
+  animation-fill-mode: both;
+}
+
+.name :nth-child(3) {
+  animation: upmove 1.5s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 3.35s;
+  animation-fill-mode: both;
+}
+
+.name :nth-child(4) {
+  animation: upmove 1.5s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+
+.name :nth-child(5) {
+  animation: upmove 1.5s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 3.45s;
+  animation-fill-mode: both;
+}
+
+@keyframes upmove {
+  from {
+    transform: translateY(60px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .black,
+  .black1 {
+    height: 90px;
+  }
+
+  .move {
+    margin-top: -30px;
+  }
+  .decor {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .black,
+  .black1 {
+    height: 90px;
+  }
+
+  .move {
+    margin-top: -20px;
+  }
+  .decor {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .black,
+  .black1 {
+    height: 50px;
+  }
+
+  .move {
+    margin-top: -20px;
+  }
+  .decor {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .black,
+  .black1 {
+    height: 40px;
+  }
+
+  .move {
+    margin-top: 0px;
+  }
+  .decor {
+    font-size: 42px;
+  }
+}
