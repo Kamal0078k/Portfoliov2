@@ -70,10 +70,16 @@
   animation: upmove 1.5s cubic-bezier(0.67, 0.09, 0, 1.16);
   animation-delay: 300ms;
   animation-fill-mode: both;
+  margin-left: 10px;
 }
 .buckle :nth-child(8) {
   animation: upmove 1.5s cubic-bezier(0.67, 0.09, 0, 1.16);
   animation-delay: 350ms;
+  animation-fill-mode: both;
+}
+.buckle :nth-child(9) {
+  animation: upmove 1.5s cubic-bezier(0.67, 0.09, 0, 1.16);
+  animation-delay: 400ms;
   animation-fill-mode: both;
 }
 

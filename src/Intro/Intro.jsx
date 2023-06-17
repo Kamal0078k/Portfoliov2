@@ -12,6 +12,7 @@ const Intro = () => {
         <div>K</div>
         <div>L</div>
         <div>E</div>
+        <div></div>
         <div>U</div>
         <div>P</div>
       </div>

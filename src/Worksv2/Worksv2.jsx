@@ -162,10 +162,10 @@ const Worksv2 = () => {
         <div className="gallinfov2">
           <div className="galltitv2">GALLERY</div>
           <div className="gallinfov3">
-            This MERN stack gallery web application allows users to create an
-            account and store their memorable images. The application also
-            enables users to delete their unwanted images and share images with
-            other users via their username.
+            This MERN stack gallery web application enables users to register
+            and store their priceless photos. Users can share photographs via
+            their username with other users and erase any unwanted images from
+            their device using this programme.
           </div>
         </div>
       </div>
@@ -178,12 +178,11 @@ const Worksv2 = () => {
         <div className="unpinfov2">
           <div className="unptitv2">UNPLUGGED</div>
           <div className="unpinfov3">
-            As a branding project, you created a logo for a shopping company
-            called Unplug. The logo represents the brand identity and aims to
-            communicate its values and mission visually. It likely involved
-            research, creativity, and collaboration with the company's
-            stakeholders to ensure the final product meets their needs and
-            goals.
+            As part of a branding assignment, I designed a logo for the retailer
+            Unplug. The brand's identity is represented by the logo, which tries
+            to graphically convey its beliefs and mission. It involved research,
+            creativity, and collaboration with the company's stakeholders to
+            ensure the final product meets their needs and goals.
           </div>
         </div>
       </div>
