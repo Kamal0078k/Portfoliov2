@@ -5,9 +5,9 @@ import Body from "./Body";
 function App() {
   useEffect(() => {
     // Disable scrolling
-    document.body.style.overflow = "hidden";
+    document.body.style.overflowY = "hidden";
     const enableScrolling = () => {
-      document.body.style.overflow = "auto";
+      document.body.style.overflowY = "auto";
     };
     const timeout = setTimeout(enableScrolling, 3500);
 
