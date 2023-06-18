@@ -39,11 +39,17 @@
   position: absolute;
   left: 30vh;
   top: -5vh;
+
   z-index: 2;
+}
+
+.profile:hover {
+  transform: scale(1.05);
 }
 
 .profile {
   position: relative;
+  transition: transform 1s cubic-bezier(0.67, 0.09, 0, 1.16);
 }
 
 .box {

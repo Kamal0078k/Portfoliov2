@@ -25,6 +25,10 @@
   }
 }
 
+.por {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 420px) {
   .main {
     font-size: 30px;

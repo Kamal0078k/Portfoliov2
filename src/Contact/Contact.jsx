@@ -31,9 +31,33 @@ const Contact = () => {
         </div>
       </div>
       <div className="contacts">
-        <div className="con">LINKEDIN</div>
-        <div className="con">GITHUB</div>
-        <div className="con">INSTAGRAM</div>
+        <div className="con">
+          <a
+            href="https://www.linkedin.com/in/kamal-arukala-08534b173/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LINKEDIN
+          </a>
+        </div>
+        <div className="con">
+          <a
+            href="https://github.com/Kamal0078k"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GITHUB
+          </a>
+        </div>
+        <div className="con">
+          <a
+            href="https://www.instagram.com/kamal_arukala/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            INSTAGRAM
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -157,6 +157,7 @@ const Worksv2 = () => {
         <div className="gallimagesv2">
           <img src={gall1} className="gall1v2" />
           <img src={gall2} className="gall2v2" />
+
           <img src={gall3} className="gall3v2" />
         </div>
         <div className="gallinfov2">

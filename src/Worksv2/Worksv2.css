@@ -31,6 +31,7 @@
 .unp3v2 {
   width: 700px;
   position: absolute;
+  transition: transform 0.5s cubic-bezier(0.67, 0.09, 0, 1.16);
 }
 
 .gall1v2,
@@ -44,6 +45,7 @@
   right: 2vw;
   top: 20vh;
 }
+
 .gallimagesv2,
 .unpimagesv2 {
   position: relative;
@@ -52,6 +54,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .galltitv2,
 .unptitv2 {
   font-family: "Poppins", sans-serif;
