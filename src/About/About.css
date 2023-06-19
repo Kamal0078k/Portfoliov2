@@ -3,6 +3,8 @@
 
 .second {
   height: 90vh;
+  scroll-behavior: smooth;
+  scroll-behavior: cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .title {

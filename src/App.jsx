@@ -1,4 +1,4 @@
-import react, { useState, useEffect } from "react";
+import react, { useState, useEffect, useRef } from "react";
 import Intro from "./Intro/Intro";
 import Body from "./Body";
 
@@ -32,10 +32,10 @@ function App() {
     // return () => ;
   }, []);
   return (
-    <>
+    <div>
       <Intro />
       <Body />
-    </>
+    </div>
   );
 }
 
