@@ -1,3 +1,8 @@
 body {
   position: absolute;
 }
+
+.smooth {
+  scroll-behavior: smooth;
+  scroll-behavior: cubic-bezier(0.67, 0.09, 0, 1.16);
+}

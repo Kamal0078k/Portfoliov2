@@ -16,12 +16,14 @@ const About = () => {
       },
       {
         x: 0,
+        ease: CustomEase.create(
+          "custom",
+          "M0,0 C0.498,0 0.488,0.336 0.5,0.5 0.542,0.8 0.609,0.83 0.668,0.899 0.706,0.942 0.788,0.97 1,1 "
+        ),
 
         scrollTrigger: {
           trigger: ".clip",
-          start: "top 100%",
-          end: "bottom center",
-          scrub: true,
+          start: "top 70%",
         },
       }
     );

@@ -1,6 +1,7 @@
 import react, { useState, useEffect, useRef } from "react";
 import Intro from "./Intro/Intro";
 import Body from "./Body";
+import Back from "./Back/Back";
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
     <div>
       <Intro />
       <Body />
+      <Back />
     </div>
   );
 }
